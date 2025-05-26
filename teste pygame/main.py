@@ -50,14 +50,14 @@ comprimento_inicial = 5
 
 def reiniciar_jogo():
     global pontos, comprimento_inicial, x_cobra, y_cobra, x_maca, y_maca, lista_cobra, lista_cabeca, morreu
-    pontos = 0,
-    comprimento_inicial = 5,
-    x_cobra = int(largura / 2),
-    y_cobra = int(altura / 2),
-    x_maca = int(randint(40, 600)),
-    y_maca = int(randint(50, 430)),
-    lista_cobra = [],
-    lista_cabeca = [],
+    pontos = 0
+    comprimento_inicial = 5
+    x_cobra = int(largura / 2)
+    y_cobra = int(altura / 2)
+    x_maca = int(randint(40, 600))
+    y_maca = int(randint(50, 430))
+    lista_cobra = []
+    lista_cabeca = []
     morreu = False
 
 
